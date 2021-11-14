@@ -1,0 +1,21 @@
+npm init -y
+
+npm i graphql apollo-server @prisma/client type-graphql reflect-metadata
+npm i -D typescript ts-node prisma typegraphql-prisma
+
+
+tsc --init
+
+// create src/index.ts and have a log. // Everything working.
+
+npx prisma init
+
+// Create a model in prisma.schema
+
+prisma db push
+
+prisma studio
+
+// Add a few rows
+
+prisma generate

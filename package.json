@@ -1,0 +1,28 @@
+{
+  "name": "sample-typegql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "prisma:init": "prisma init",
+    "prisma:db-push": "prisma db push",
+    "prisma:generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.4.2",
+    "apollo-server": "^3.5.0",
+    "graphql": "^15.7.2",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "prisma": "^3.4.2",
+    "ts-node": "^10.4.0",
+    "typegraphql-prisma": "^0.16.6",
+    "typescript": "^4.4.4"
+  }
+}
